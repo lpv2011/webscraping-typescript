@@ -1,0 +1,15 @@
+{
+    "name": "@project-pluto/rpc",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "exports": {
+      "./price/v1/price_connect": "./src/gen/price/v1/price_connect.ts",
+      "./price/v1/price_pb": "./src/gen/price/v1/price_pb.ts"
+    },
+    "dependencies": {
+      "@bufbuild/protobuf": "^1.8.0",
+      "@connectrpc/connect": "^1.5.0"
+    }
+  }
+  

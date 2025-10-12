@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": { "@rpc/*": ["../../packages/rpc/src/gen/*"] }
+  },
+  "include": ["src"]
+}

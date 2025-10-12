@@ -1,0 +1,8 @@
+{
+    "name": "@project-pluto/proto",
+    "private": true,
+    "scripts": {
+      "generate": "echo 'Using pre-generated code (noop)'"
+    }
+  }
+  

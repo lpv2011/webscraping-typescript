@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package price.v1;
+
+service PriceService {
+  // Open one stream per ticker. Cancel the stream to "remove" the ticker.
+  rpc SubscribeTicker(SubscribeRequest) returns (stream PriceUpdate);
+}
+
+message SubscribeRequest {
+  string symbol = 1; // e.g. BTCUSD
+}
+
+message PriceUpdate {
+  string symbol = 1;
+  double price = 2;
+  int64 ts_ms = 3;
+}

@@ -1,0 +1,9 @@
+{
+    "name": "project-pluto-workspace",
+    "private": true,
+    "packageManager": "pnpm@9.0.0",
+    "scripts": {
+      "dev": "echo use ./run.sh",
+      "codegen": "pnpm --filter proto run generate || true"
+    }
+  }
