@@ -10,6 +10,8 @@ A full-stack TypeScript application that streams live cryptocurrency prices from
 * Scalable backend architecture supporting multiple concurrent clients with efficient Playwright session reuse.
 * Visibility enabled (headed Playwright mode) for transparent browser automation.
 
+* Look at [demo.gif](./demo.gif) for demo
+
 #### Tech Stack
 
 * **Frontend:** Next.js, TypeScript, React
